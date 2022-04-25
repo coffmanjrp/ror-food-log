@@ -3,9 +3,10 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar-brand">
-          <a class="navbar-item">
-            <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
-          </a>
+          <%= link_to root_path, class: "navbar-item" do %>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>romantic-restaurant</title><g fill="#ffffff"><path d="M16.621,5.121,12,9.743,7.379,5.121A3,3,0,0,1,11.621.879L12,1.257l.379-.378a3,3,0,1,1,4.242,4.242Z"></path><path d="M17,16a1,1,0,0,0,0-2H7a1,1,0,0,0,0,2h4v8h2V16Z" fill="#ffffff"></path><path d="M22,12v6H17a1,1,0,0,0-1,1v5h2V20h4v4h2V12Z" fill="#ffffff"></path><path d="M7,18H2V12H0V24H2V20H6v4H8V19A1,1,0,0,0,7,18Z" fill="#ffffff"></path></g></svg>
+            <span class="has-textweight-bold is-size-4 ml-4">FoodLog</span>
+          <% end %>
           <span class="navbar-burger" data-target="navbarMenuHeroA">
             <span></span>
             <span></span>
